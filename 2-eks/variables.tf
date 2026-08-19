@@ -5,7 +5,7 @@ variable "project" {
 
 variable "kubernetes_version" {
   type    = string
-  default = "1.30"
+  default = "1.33"
 }
 
 variable "ssh_key_name" {
