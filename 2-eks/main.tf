@@ -39,10 +39,10 @@ module "eks" {
 
     use_custom_launch_template = false
 
-    remote_access = {
-      ec2_ssh_key               = var.ssh_key_name
-      source_security_group_ids = []
-    }
+   # remote_access = {
+    #  ec2_ssh_key               = var.ssh_key_name
+     # source_security_group_ids = []
+   # }
   }
 }
 
