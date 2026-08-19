@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "tf_state" {
-  bucket = "itkannadigaru-infra-statefile-backup"
+  bucket = "infra-statefile-backup"
 }
 
 resource "aws_s3_bucket_versioning" "tf_state" {
