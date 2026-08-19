@@ -1,6 +1,6 @@
 variable "project" {
   type    = string
-  default = "itkannadigaru"
+  default = "infra_project"
 }
 
 variable "vpc_cidr" {
@@ -10,5 +10,5 @@ variable "vpc_cidr" {
 
 variable "azs" {
   type    = list(string)
-  default = ["us-west-2a", "us-west-2b"]
+  default = ["ap-south-1a", "ap-south-1b"]
 }
